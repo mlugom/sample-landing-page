@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import Quote from "../components/Quote";
 import RandomInfo from "../components/RandomInfo";
 
 export default function Main() {
@@ -6,6 +7,7 @@ export default function Main() {
     <main className="[&>*]:px-52">
       <Hero />
       <RandomInfo />
+      <Quote />
     </main>
   );
 }
