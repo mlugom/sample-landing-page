@@ -1,3 +1,4 @@
+import Button from "./Button";
 import Header from "./Header";
 
 export default function Hero() {
@@ -26,7 +27,7 @@ function HeroText() {
         This website has some subtext that goes here under the main title. It's
         a smaller font and the color is lower contrast.
       </p>
-      <button className="rounded-md blue-background px-7 py-2 font-semibold">Sign up</button>
+      <Button />
     </div>
   );
 }
