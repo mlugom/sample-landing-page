@@ -1,3 +1,4 @@
+import CallToAction from "../components/CallToAction";
 import Hero from "../components/Hero";
 import Quote from "../components/Quote";
 import RandomInfo from "../components/RandomInfo";
@@ -8,6 +9,7 @@ export default function Main() {
       <Hero />
       <RandomInfo />
       <Quote />
+      <CallToAction />
     </main>
   );
 }
