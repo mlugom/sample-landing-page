@@ -5,3 +5,11 @@
 .dark-background {
   @apply bg-[#1F2937] text-white;
 }
+
+.blue-background {
+  @apply bg-[#3882F6];
+}
+
+.blue-border {
+  @apply border-[#3882F6]
+}
